@@ -5,7 +5,7 @@ ini_set('display_errors', 1);
 
 header('Content-Type: application/json');
 
-$apiKey = 'nLn2qX9x8c6CCa0t61GVXBl7z'; 
+$apiKey = 'lTKGF8VRXPTQdtHnnazUoMJQc'; 
 if (!isset($_SERVER['HTTP_X_DX_API']) || $_SERVER['HTTP_X_DX_API'] !== $apiKey) {
     http_response_code(401);
     echo json_encode(['message' => 'Invalid API key']);
